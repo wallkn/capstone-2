@@ -1,3 +1,10 @@
+
+
+.hero{
+    background: #c2af1f;
+    background: radial-gradient(circle,rgba(194, 175, 31, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    
+}
 .nombre{
     font-size: 4em;
     font-weight: 400;
@@ -5,5 +12,31 @@
     color: rgb(122, 72, 80);
     font-kerning: none;
     text-decoration: none;
+    font-family: "Imperial Script", cursive;
+}
+.subtitulos {
+    
+    font-size: 1.5em;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(122, 72, 80);
+    font-kerning: none;
+    text-decoration: none;
     font-family: sans-serif;
+}
+.text-right{
+    justify-content: right;
+}
+
+.laptop {
+   border-radius: 5%;
+}
+
+/*  Aplicar estilos condicionados a una pantalla menor de 576 pixeles */  
+@media (width< 575px) {
+    .sun   {
+       width: 300px;
+       
+    }
+  
 }
